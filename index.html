@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffe Bar School | Zagreb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+    <a href="index.html" class="nav-logo">SCHOOL</a>
+    <ul class="nav-links">
+        <li><a href="index.html" class="active-link">Početna</a></li>
+        <li><a href="ponuda.html">Ponuda</a></li>
+        <li><a href="galerija.html">Galerija</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+    <a href="https://www.instagram.com" target="_blank" class="nav-ig">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Meni"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Početna</a>
+    <a href="ponuda.html">Ponuda</a>
+    <a href="galerija.html">Galerija</a>
+    <a href="kontakt.html" class="mobile-reserve">Kontakt</a>
+</div>
+
+<section class="hero">
+    <div class="hero-bg" id="heroBg" style="background-image: url('assets/indexbackground.jpg'); background-position: center 30%;"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <span class="hero-eyebrow">Est. 2026 · Zagreb · Savska cesta 32</span>
+        <h1 class="hero-title">CAFFE<br>BAR <span class="accent">SCHOOL</span></h1>
+        <p class="hero-sub">Tvoje mjesto za učenje, druženje i dobru kavu. Kod nas ispijaš kavu dok ispijaš znanje — studentima popust, a znanju nikad kraja!</p>
+        <div class="hero-actions">
+            <a href="ponuda.html" class="btn-primary">Pogledaj Ponudu</a>
+            <a href="https://www.instagram.com" target="_blank" class="btn-ig">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+        </div>
+    </div>
+    <div class="hero-badge">
+        <div class="hero-badge-line1">Student<br>Popust</div>
+        <div class="hero-badge-line2">–15% svaki dan</div>
+    </div>
+    <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="hero-scroll-line"></div>
+    </div>
+</section>
+
+<div class="ticker">
+    <div class="ticker-track">
+        <span>Studentska kava 1€</span><span class="sep">·</span>
+        <span>WiFi Free</span><span class="sep">·</span>
+        <span>Study grupe</span><span class="sep">·</span>
+        <span>Happy Hour 14–17h</span><span class="sep">·</span>
+        <span>Quizz Night</span><span class="sep">·</span>
+        <span>Otvoreno 06–23h</span><span class="sep">·</span>
+        <span>Studentska kava 1€</span><span class="sep">·</span>
+        <span>WiFi Free</span><span class="sep">·</span>
+        <span>Study grupe</span><span class="sep">·</span>
+        <span>Happy Hour 14–17h</span><span class="sep">·</span>
+        <span>Quizz Night</span><span class="sep">·</span>
+        <span>Otvoreno 06–23h</span><span class="sep">·</span>
+        <span>Studentska kava 1€</span><span class="sep">·</span>
+        <span>WiFi Free</span><span class="sep">·</span>
+        <span>Study grupe</span><span class="sep">·</span>
+        <span>Happy Hour 14–17h</span><span class="sep">·</span>
+        <span>Quizz Night</span><span class="sep">·</span>
+        <span>Otvoreno 06–23h</span><span class="sep">·</span>
+    </div>
+</div>
+
+<section class="section section-light">
+    <div class="menu-split">
+        <div>
+            <div class="reveal">
+                <span class="label">Što nudimo</span>
+                <h2 class="section-title">NAŠA<br><em>Ponuda</em></h2>
+                <p class="section-sub" style="margin-bottom:40px;">Od jutarnje kave do kasnog učenja — u Schoolu je svaki trenutak prilika za znanje i užitak.</p>
+                <a href="ponuda.html" class="btn-primary">Kompletna karta</a>
+            </div>
+        </div>
+        <div class="menu-grid">
+            <div class="menu-category reveal">
+                <div class="menu-cat-title">KAVA</div>
+                <div class="menu-item"><div><div class="menu-item-name">Espresso</div></div><div class="menu-item-price">1,40 EUR</div></div>
+                <div class="menu-item"><div><div class="menu-item-name">Cappuccino</div></div><div class="menu-item-price">1,70 EUR</div></div>
+                <div class="menu-item"><div><div class="menu-item-name">Studentska kava</div><div class="menu-item-desc">Uz indeks — kava 1€</div></div><div class="menu-item-price">1,00 EUR</div></div>
+            </div>
+            <div class="menu-category reveal">
+                <div class="menu-cat-title">STUDY SNACKS</div>
+                <div class="menu-item"><div><div class="menu-item-name">Sendvič sa sirom</div></div><div class="menu-item-price">3,50 EUR</div></div>
+                <div class="menu-item"><div><div class="menu-item-name">Burek sir/ meso</div></div><div class="menu-item-price">3,00 EUR</div></div>
+                <div class="menu-item"><div><div class="menu-item-name">Voćna salata</div><div class="menu-item-desc">Svježe voće, jogurt, granola</div></div><div class="menu-item-price">4,00 EUR</div></div>
+            </div>
+            <div class="menu-category highlight reveal">
+                <div class="menu-cat-title">HAPPY HOUR · 14–17H</div>
+                <div class="menu-item"><div><div class="menu-item-name">Svi topli napitci</div><div class="menu-item-desc">−20% na kavu, čaj i kuhano vino</div></div><div class="menu-item-price">od 1,10 EUR</div></div>
+                <div class="menu-item"><div><div class="menu-item-name">Studentski meni</div><div class="menu-item-desc">Kava + sendvič = 3,50 EUR</div></div><div class="menu-item-price">3,50 EUR</div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-warm" style="padding-bottom:0;">
+    <div class="reveal" style="margin-bottom:44px;">
+        <span class="label">Atmosfera</span>
+        <h2 class="section-title" style="margin-bottom:8px;">NAŠI<br><em>Trenuci</em></h2>
+    </div>
+    <div class="gallery-mosaic">
+        <div class="gallery-mosaic-item"><img src="assets/alibi_1.jpg" alt="School"></div>
+        <div class="gallery-mosaic-item"><img src="assets/alibi_3.jpg" alt="School"></div>
+        <div class="gallery-mosaic-item"><img src="assets/alibi_5.jpg" alt="School"></div>
+        <div class="gallery-mosaic-item"><img src="assets/alibi_7.jpg" alt="School"></div>
+    </div>
+    <div style="text-align:center;padding:36px 20px;background:var(--bg-warm);">
+        <a href="galerija.html" class="btn-primary">Pogledaj cijelu galeriju</a>
+    </div>
+</section>
+
+<section class="section section-light">
+    <div class="reveal" style="margin-bottom:0;">
+        <span class="label">Naši gosti</span>
+        <h2 class="section-title">ŠTO<br><em>Kažu</em></h2>
+    </div>
+    <div class="reviews-cols">
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Najbolje mjesto za učenje u Zagrebu! Tiha glazba, dobra kava i super ekipa. Položila sam ispit zahvaljujući Schoolu!</p>
+            <div class="review-author">— Maja K.</div>
+        </div>
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Studentska kava za 1€ je spas! Ovdje provodim sate učeći, a osoblje je uvijek ljubazno. Toplo preporučam!</p>
+            <div class="review-author">— Tomislav B.</div>
+        </div>
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Savršeno mjesto za study grupe. WiFi je brz, utičnica ima na pretek, a kokteli su odlični nakon napornog dana.</p>
+            <div class="review-author">— Petra N.</div>
+        </div>
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Kava je odlična, cijene pristupačne, a atmosfera potiče na učenje. Svaki dan sam ovdje!</p>
+            <div class="review-author">— Ivan Š.</div>
+        </div>
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">School je postao moja druga dnevna soba. Od jutarnje kave do večernjeg quizza — uvijek je dobro!</p>
+            <div class="review-author">— Lana M.</div>
+        </div>
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Pristupačne cijene, odlična hrana i predivan ambijent. Najbolji caffe bar za studente u kvartu!</p>
+            <div class="review-author">— Hrvoje C.</div>
+        </div>
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Ovdje sam upoznao svoje najbolje prijatelje. Study grupe su zakon, a osoblje je fantastično!</p>
+            <div class="review-author">— Filip R.</div>
+        </div>
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Svaki detalj je prilagođen studentima — od utičnica do radnog vremena. Svaka čast ekipi iz Schoola!</p>
+            <div class="review-author">— Ana L.</div>
+        </div>
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Savršeno mjesto za opuštanje nakon predavanja. Happy hour ponuda je odlična, a studenski meni još bolji!</p>
+            <div class="review-author">— Davor F.</div>
+        </div>
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">School ima dušu! Svaki put otkrijem nešto novo. Najdraži caffe bar u Zagrebu, bez konkurencije.</p>
+            <div class="review-author">— Zrinka M.</div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-mid">
+    <div class="hours-layout">
+        <div>
+            <div class="reveal">
+                <span class="label">Radno vrijeme</span>
+                <h2 class="section-title">SVAKI<br><em>Dan</em></h2>
+                <p class="section-sub" style="margin-bottom:44px;">School je tu za tebe — od ranog jutra do kasne večeri, svakog dana u tjednu.</p>
+            </div>
+            <div class="hours-table">
+                <div class="hours-row"><span class="hours-day">Ponedjeljak</span><span class="hours-time hours-open">06:00 – 23:00</span></div>
+                <div class="hours-row"><span class="hours-day">Utorak</span><span class="hours-time hours-open">06:00 – 23:00</span></div>
+                <div class="hours-row"><span class="hours-day">Srijeda</span><span class="hours-time hours-open">06:00 – 23:00</span></div>
+                <div class="hours-row"><span class="hours-day">Četvrtak</span><span class="hours-time hours-open">06:00 – 23:00</span></div>
+                <div class="hours-row"><span class="hours-day">Petak</span><span class="hours-time hours-open">06:00 – 23:00</span></div>
+                <div class="hours-row"><span class="hours-day">Subota</span><span class="hours-time hours-open">07:00 – 23:00</span></div>
+                <div class="hours-row"><span class="hours-day">Nedjelja</span><span class="hours-time hours-open">08:00 – 22:00</span></div>
+            </div>
+        </div>
+        <div class="reveal">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.357!2d15.947!3d45.808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6e7a837b6e5%3A0x8e1a7c3f5a9b6d2f!2sSavska%20cesta%2032%2C%2010000%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-address">
+                <span class="addr-label">Adresa</span>
+                <span class="addr-text">Savska cesta 32, Zagreb</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <span class="footer-logo">SCHOOL</span>
+            <p>Caffe Bar School — kava, učenje &amp; dobro društvo. Tvoje mjesto za znanje i užitak u srcu Zagreba.</p>
+            <a href="https://www.instagram.com" target="_blank" class="footer-ig">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                @caffe_bar_school
+            </a>
+        </div>
+        <div class="footer-col">
+            <h4>Navigacija</h4>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="ponuda.html">Ponuda</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Kontakt</h4>
+            <p>Savska cesta 32<br>10000 Zagreb</p>
+        </div>
+        <div class="footer-col">
+            <h4>Radno vrijeme</h4>
+            <p>Pon–Pet 06–23h<br>Sub 07–23h · Ned 08–22h</p>
+            <span class="footer-happy">Happy Hour: 14–17h</span>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>Made and Updated by DPServices</span>
+        <span>© 2026 Caffe Bar School</span>
+        <span>Pratite nas na <a href="https://www.instagram.com" target="_blank">Instagramu</a></span>
+    </div>
+</footer>
+
+<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+const hamburger = document.getElementById('hamburger');
+const mobileNav = document.getElementById('mobileNav');
+hamburger.addEventListener('click', () => {
+    mobileNav.classList.toggle('open');
+    document.body.style.overflow = mobileNav.classList.contains('open') ? 'hidden' : '';
+});
+mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    mobileNav.classList.remove('open');
+    document.body.style.overflow = '';
+}));
+
+const heroBg = document.getElementById('heroBg');
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    if (heroBg) heroBg.style.transform = `scale(1.08) translateY(${y * 0.28}px)`;
+    document.getElementById('backTop').classList.toggle('visible', y > 400);
+    navbar.classList.toggle('scrolled', y > 10);
+});
+
+function revealOnScroll() {
+    document.querySelectorAll('.reveal, .review-card, .hours-row, .menu-category, .event-card').forEach((el, i) => {
+        if (el.getBoundingClientRect().top < window.innerHeight * 0.92) {
+            el.style.transitionDelay = (i % 5) * 70 + 'ms';
+            el.classList.add('revealed');
+        }
+    });
+}
+window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('load', revealOnScroll);
+revealOnScroll();
+</script>
+</body>
+</html>

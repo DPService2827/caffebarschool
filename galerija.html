@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija – Caffe Bar School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+    <a href="index.html" class="nav-logo">SCHOOL</a>
+    <ul class="nav-links">
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="ponuda.html">Ponuda</a></li>
+        <li><a href="galerija.html" class="active-link">Galerija</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+    <a href="https://www.instagram.com" target="_blank" class="nav-ig">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Meni"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Početna</a>
+    <a href="ponuda.html">Ponuda</a>
+    <a href="galerija.html">Galerija</a>
+    <a href="kontakt.html" class="mobile-reserve">Kontakt</a>
+</div>
+
+<section class="page-hero">
+    <div class="page-hero-bg" style="background-image: url('assets/bg2.jpg');"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+        <span class="page-hero-eyebrow">Trenuci iz Schoola</span>
+        <h1 class="page-hero-title"><em>Galerija</em></h1>
+    </div>
+</section>
+
+<section class="section section-light" style="padding-top:60px;">
+    <div class="reveal" style="margin-bottom:44px;">
+        <span class="label">Naš prostor</span>
+        <p class="section-sub">Kliknite na fotografiju za prikaz u punoj veličini</p>
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item" data-index="0">
+            <img src="assets/alibi_1.jpg" alt="School kava" loading="lazy">
+            <div class="gallery-item-overlay"><span class="gallery-caption">Studentska kava</span></div>
+        </div>
+        <div class="gallery-item" data-index="1">
+            <img src="assets/alibi_2.jpg" alt="Dobrodošli u School" loading="lazy">
+            <div class="gallery-item-overlay"><span class="gallery-caption">Dobrodošli u School</span></div>
+        </div>
+        <div class="gallery-item" data-index="2">
+            <img src="assets/alibi_3.jpg" alt="Učenje je zakon" loading="lazy">
+            <div class="gallery-item-overlay"><span class="gallery-caption">Učenje je zakon</span></div>
+        </div>
+        <div class="gallery-item" data-index="3">
+            <img src="assets/alibi_4.jpg" alt="Study zona" loading="lazy">
+            <div class="gallery-item-overlay"><span class="gallery-caption">Study zona</span></div>
+        </div>
+        <div class="gallery-item" data-index="4">
+            <img src="assets/alibi_5.jpg" alt="Quiz Night" loading="lazy">
+            <div class="gallery-item-overlay"><span class="gallery-caption">Quiz Night</span></div>
+        </div>
+        <div class="gallery-item" data-index="5">
+            <img src="assets/alibi_6.jpg" alt="Druženje" loading="lazy">
+            <div class="gallery-item-overlay"><span class="gallery-caption">Druženje</span></div>
+        </div>
+        <div class="gallery-item" data-index="6">
+            <img src="assets/alibi_7.jpg" alt="Uči uz kavu" loading="lazy">
+            <div class="gallery-item-overlay"><span class="gallery-caption">Uči uz kavu</span></div>
+        </div>
+        <div class="gallery-item" data-index="7">
+            <img src="assets/alibi_8.jpg" alt="Studentska srijeda" loading="lazy">
+            <div class="gallery-item-overlay"><span class="gallery-caption">Studentska srijeda</span></div>
+        </div>
+        <div class="gallery-item" data-index="8">
+            <img src="assets/alibi_9.jpg" alt="School ekipa" loading="lazy">
+            <div class="gallery-item-overlay"><span class="gallery-caption">School ekipa</span></div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-mid" style="text-align:center;padding:80px 60px;">
+    <div class="reveal">
+        <span class="label" style="justify-content:center;">Još fotografija</span>
+        <h2 class="section-title" style="margin-bottom:20px;">PRATITE NAS<br><em>na Instagramu</em></h2>
+        <p class="section-sub" style="margin:0 auto 36px;">Svakodnevni trenuci, study grupe i atmosfera direktno sa Savske.</p>
+        <a href="https://www.instagram.com" target="_blank" class="ig-cta" style="margin:0 auto;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            @caffe_bar_school
+        </a>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <span class="footer-logo">SCHOOL</span>
+            <p>Caffe Bar School — kava, učenje &amp; dobro društvo. Tvoje mjesto za znanje i užitak u srcu Zagreba.</p>
+            <a href="https://www.instagram.com" target="_blank" class="footer-ig">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                @caffe_bar_school
+            </a>
+        </div>
+        <div class="footer-col">
+            <h4>Navigacija</h4>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="ponuda.html">Ponuda</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Kontakt</h4>
+            <p>Savska cesta 32<br>10000 Zagreb</p>
+        </div>
+        <div class="footer-col">
+            <h4>Radno vrijeme</h4>
+            <p>Pon–Pet 06–23h<br>Sub 07–23h · Ned 08–22h</p>
+            <span class="footer-happy">Happy Hour: 14–17h</span>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>Made and Updated by DPServices</span>
+        <span>© 2026 Caffe Bar School</span>
+        <span>Pratite nas na <a href="https://www.instagram.com" target="_blank">Instagramu</a></span>
+    </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+    <span class="lightbox-close" id="lbClose">&times;</span>
+    <span class="lightbox-prev" id="lbPrev">‹</span>
+    <img id="lbImg" src="" alt="">
+    <span class="lightbox-next" id="lbNext">›</span>
+</div>
+
+<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+const hamburger = document.getElementById('hamburger');
+const mobileNav = document.getElementById('mobileNav');
+hamburger.addEventListener('click', () => {
+    mobileNav.classList.toggle('open');
+    document.body.style.overflow = mobileNav.classList.contains('open') ? 'hidden' : '';
+});
+mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    mobileNav.classList.remove('open');
+    document.body.style.overflow = '';
+}));
+window.addEventListener('scroll', () => {
+    document.getElementById('backTop').classList.toggle('visible', window.scrollY > 400);
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 10);
+});
+function revealOnScroll() {
+    document.querySelectorAll('.gallery-item, .reveal').forEach((el, i) => {
+        if (el.getBoundingClientRect().top < window.innerHeight * 0.95) {
+            setTimeout(() => el.classList.add('revealed'), (i % 4) * 90);
+        }
+    });
+}
+window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('load', revealOnScroll);
+revealOnScroll();
+
+const lightbox = document.getElementById('lightbox');
+const lbImg = document.getElementById('lbImg');
+const items = document.querySelectorAll('.gallery-item');
+let currentIndex = 0;
+function openLightbox(index) {
+    currentIndex = index;
+    lbImg.src = items[index].querySelector('img').src;
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+}
+function switchImage(index) {
+    lbImg.classList.add('fade-out');
+    setTimeout(() => {
+        currentIndex = index;
+        lbImg.src = items[currentIndex].querySelector('img').src;
+        setTimeout(() => lbImg.classList.remove('fade-out'), 30);
+    }, 200);
+}
+function prevImage() { switchImage((currentIndex - 1 + items.length) % items.length); }
+function nextImage() { switchImage((currentIndex + 1) % items.length); }
+items.forEach(item => item.addEventListener('click', () => openLightbox(parseInt(item.dataset.index))));
+document.getElementById('lbClose').addEventListener('click', closeLightbox);
+document.getElementById('lbPrev').addEventListener('click', prevImage);
+document.getElementById('lbNext').addEventListener('click', nextImage);
+lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+document.addEventListener('keydown', e => {
+    if (!lightbox.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') prevImage();
+    if (e.key === 'ArrowRight') nextImage();
+});
+let touchStartX = 0;
+lightbox.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; });
+lightbox.addEventListener('touchend', e => {
+    const diff = touchStartX - e.changedTouches[0].screenX;
+    if (Math.abs(diff) > 50) { if (diff > 0) nextImage(); else prevImage(); }
+});
+</script>
+</body>
+</html>
